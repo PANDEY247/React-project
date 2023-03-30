@@ -1,0 +1,12 @@
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'ed980705a9msh852a876eaedd8a7p1e1d8ajsnd110fe770b05',
+		'X-RapidAPI-Host': 'community-edmunds.p.rapidapi.com'
+	}
+};
+
+fetch('https://community-edmunds.p.rapidapi.com/api/vehiclereviews/v2/%7BmakeNiceName%7D/%7BmodelNiceName%7D/2013?api_key=%3CREQUIRED%3E&sortby=thumbsUp%3AASC&pagenum=1&pagesize=10&fmt=json', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
