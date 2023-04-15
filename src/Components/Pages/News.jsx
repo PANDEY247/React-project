@@ -4,8 +4,8 @@ export const News = () => {
   return (
     <>
       <nav>
-        <Link to="/news/car-news">CarNews</Link>
-        <Link to="/news/car-collections">CarCollections</Link>
+        <Link to="/news/car-news">TechNews</Link>
+        <Link to="/news/car-collections">TechIndustryNews</Link>
       </nav>
       <Outlet />
     </>
