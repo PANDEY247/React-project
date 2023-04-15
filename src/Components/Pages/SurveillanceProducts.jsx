@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, Outlet} from "react-router-dom";
-export const NewCars = () => {
+export const SurveillanceProducts = () => {
   return (
     <>
       <div>
-        <input type="search" placeholder="Search new cars"/>
+        <input type="search" placeholder="Search "/>
       </div>
       <nav>
         <Link to="bestselling">bestselling</Link>

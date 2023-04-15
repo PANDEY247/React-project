@@ -9,10 +9,10 @@ import { Default } from "./Components/Default";
 import { News } from "./Components/Pages/News";
 import { OrderSummary } from "./Components/Pages/OrderSummary";
 import { NoMatch } from "./Components/Pages/NoMatch";
-import { NewCars } from "./Components/Pages/NewCars";
+import { SurveillanceProducts } from "./Components/Pages/SurveillanceProducts";
 import { BestSelling } from "./Components/Pages/BestSelling";
 import { NewLaunched } from "./Components/NewLaunched";
-import { CarNews } from "./Components/Pages/CarNews";
+import { TechNews } from "./Components/Pages/CarNews";
 import { CarCollection } from "./Components/Pages/CarCollection";
 function App() {
   return (
@@ -23,11 +23,11 @@ function App() {
         <Route path="About" element={<About />} />
         <Route path="Blogs" element={<Default />} />
         <Route path="news" element={<News />} >
-          <Route path="/news/car-news/" element={<CarNews/>}></Route>
+          <Route path="/news/car-news/" element={<TechNews/>}></Route>
           <Route path="/news/car-collections" element={<CarCollection/>}></Route>
         </Route>
         <Route path="order-summary" element={<OrderSummary />} />
-        <Route path="newcars" element={<NewCars />}>
+        <Route path="SurveillanceProducts" element={<SurveillanceProducts />}>
           <Route path="bestselling" element={<BestSelling />} />
           <Route path="newlaunched" element={<NewLaunched />} />
         </Route>

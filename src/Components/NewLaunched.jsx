@@ -3,7 +3,7 @@ export const NewLaunched= ()=>{
 
     return (
         <div>
-            upcpoming /launched cars
+            upcpoming /wide Ranges
         </div>
     )
 }
