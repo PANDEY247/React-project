@@ -3,7 +3,7 @@ import React from "react";
 export const CarCollection=()=>{
     return(
         <div>
-            all latest model you can find here 
+            all latest wide range Product you can find here 
         </div>
     );
 }
